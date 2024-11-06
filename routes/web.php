@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\persona_controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::GET('persona/create',[persona_controller::class, 'create'])->name('persona.create');
+Route::POST('persona/store',[persona_controller::class, 'store'])->name('persona.store');
+Route::GET('persona/principal',[persona_controller::class, 'index'])->name('persona.index');
+Route::POST('persona/edit/{id}',[persona_controller::class, 'edit'])->name('persona.edit');
