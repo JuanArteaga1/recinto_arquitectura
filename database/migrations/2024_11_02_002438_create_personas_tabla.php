@@ -14,8 +14,10 @@ return new class extends Migration
         Schema::create('personas_tabla', function (Blueprint $table) {
             $table->id();
             $table->string('nombre_completo',100);
-            $table->string('telefono',10);
+            $table->string('telefono',100);
             $table->string('correo_electronico',100);
+            $table->string('contraseña',100);
+            $table->timestamps();
         });
     }
 

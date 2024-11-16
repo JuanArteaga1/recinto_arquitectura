@@ -1,0 +1,206 @@
+.parallax {
+    /* The image used */
+    background-image: url('Render-7.png');
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url('p4_1\ -\ Photo.png');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('Render-8.png');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: none;
+}
+
+body, html {
+    height: 100%;
+  }
+.navbar {
+    background-color: #01244bde;
+    /* Reemplaza con tu color deseado */
+}
+
+.btn-custom {
+    background-color: #FF8C42;
+    color: white;
+    border: none;
+}
+
+.btn-custom :hover {
+    background-color: white;
+    color: #FF8C42;
+}
+
+#MENU_CENTRAL .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#MENU_CENTRAL .nav-link:hover {
+    color: #0056b3;
+}
+
+#barra-texto{
+    height: 300px;;
+
+}
+#titulo-barra{
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#titulo-barra{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#texto-barra{
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#texto-barra{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#texto-imagen{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+#texto-imagen{
+    font-size: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+/* Establece la altura del contenedor principal del carrusel */
+#carousel {
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Ajusta la altura total del carrusel */
+#carouselExampleFade {
+    height: 70vh; /* Puedes cambiar este valor para ajustar la altura (ej. 70vh para 70% de la pantalla) */
+}
+
+/* Ajusta las imágenes para que ocupen el 100% de la altura del contenedor */
+.carousel-inner {
+    height: 100%;
+}
+
+/* Aumenta el tamaño de las imágenes en un 10% y mantiene proporciones */
+.carousel-item img {
+    height: 100%;
+    width: auto;
+    max-width: 120%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto de zoom al pasar el cursor */
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Personalización de flechas del carrusel */
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    background-color: #000;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: #002a57cb;
+}
+
+#proyectos{
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #002B5B;
+}
+#proyectos{
+    margin-top: 100px;
+}
+
+#ESTO{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 80px;
+}
+
+#caracteristicas{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #2d2d2d00;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-social-icons a {
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-social-icons a:hover {
+    color: #007bff; /* Cambiar el color al hacer hover */
+}
+
+    .btn-custom:hover {
+        background-color: #0056b3;
+    }
+
+    /* Estilos para el footer */
+    footer {
+        width: 100%;
+        color: white;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    .footer-text a, .footer-social-icons a {
+        color: white;
+        margin-right: 15px;
+        text-decoration: none;
+        font-size: 14px;
+    }

@@ -8,7 +8,7 @@
 </div>
 <div class="row justify-content-center">
     <div class="col-6">
-        <form method='POST' action="{{route('persona.store')}}">
+        <form method='POST' action="{{route('personas.store')}}">
             @csrf
             @method('POST')
             <div class="mb-3">
@@ -32,10 +32,10 @@
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
             <button type="submit" class="btn btn-primary">ingresar</button>
-            
+
         </form>
-        <a class="btn btn-success" href="{{route('persona.index')}}">lista registrados</a>
-        
+        <a class="btn btn-success" href="{{route('personas.index')}}">lista registrados</a>
+
     </div>
 
 </div>
